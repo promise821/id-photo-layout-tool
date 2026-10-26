@@ -1,0 +1,9 @@
+PyQt6>=6.5
+Pillow>=10.0
+numpy>=1.24
+opencv-python>=4.8
+requests>=2.31
+# 神经网络抠图（MODNet ONNX）。可选：缺失时自动回退 GrabCut/漫水。
+# 注意：onnxruntime 1.31.0 在部分 Windows + CPU 环境下 import 即崩溃（0xC0000005），
+# 因此锁在 1.19~1.30 区间。
+onnxruntime>=1.19,<1.31

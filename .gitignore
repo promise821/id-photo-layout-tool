@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 构建产物
+build/
+
+# 自检 / 测试产物
+_selftest/
+
+# 编译产物：仅保留 exe，排除其余测试图
+dist/*.jpg
+dist/上传单张/
+
+# 工具缓存
+.mimocode/
